@@ -18,6 +18,7 @@ class ViewController: UIViewController, ARSessionDelegate {
 //    ラベル変数
     @IBOutlet weak var label: UILabel!
     
+    @IBOutlet weak var testModeLabel: UILabel!
     
     var sceneView: ARSCNView!
     var device: AVCaptureDevice!
@@ -72,6 +73,8 @@ class ViewController: UIViewController, ARSessionDelegate {
         let angle = 90 * CGFloat.pi / 180
         let trans = CGAffineTransform(rotationAngle: CGFloat(angle))
         label.transform = trans
+        testModeLabel.transform = trans
+        testModeLabel.isHidden = true
     }
 
     override func viewDidLoad() {
@@ -101,8 +104,10 @@ class ViewController: UIViewController, ARSessionDelegate {
         sceneView.session.run(configuration)
         view.addSubview(sceneView)
         
+//        最前列に持ってくる
         view.bringSubviewToFront(button)
         view.bringSubviewToFront(label)
+        view.bringSubviewToFront(testModeLabel)
     }
     
 
@@ -231,6 +236,14 @@ class ViewController: UIViewController, ARSessionDelegate {
     
     @IBAction func markerButton(_ sender: UIButton) {
         malkerFlag = !malkerFlag
+//        testModeLabel.isHidden = true
+        if malkerFlag {
+//            TEST MODE ラベルを出す
+            testModeLabel.isHidden = false
+        } else {
+//            TEST MODE ラベルを出す
+            testModeLabel.isHidden = true
+        }
     }
     
     
