@@ -40,7 +40,7 @@
 /* Begin PBXFileReference section */
 		5D2CED582A3AFF1F000C7DE6 /* firework.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = firework.sks; sourceTree = "<group>"; };
 		5D2CED592A3AFF1F000C7DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5DBF39BF2A2DB3440017A3E2 /* cameraTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cameraTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DBF39BF2A2DB3440017A3E2 /* HandFireWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandFireWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBF39C22A2DB3440017A3E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DBF39C42A2DB3440017A3E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5DBF39C62A2DB3440017A3E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		5DBF39C02A2DB3440017A3E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DBF39BF2A2DB3440017A3E2 /* cameraTest.app */,
+				5DBF39BF2A2DB3440017A3E2 /* HandFireWork.app */,
 				5DBF39D52A2DB3450017A3E2 /* cameraTestTests.xctest */,
 				5DBF39DF2A2DB3450017A3E2 /* cameraTestUITests.xctest */,
 			);
@@ -150,7 +150,7 @@
 			);
 			name = cameraTest;
 			productName = cameraTest;
-			productReference = 5DBF39BF2A2DB3440017A3E2 /* cameraTest.app */;
+			productReference = 5DBF39BF2A2DB3440017A3E2 /* HandFireWork.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5DBF39D42A2DB3450017A3E2 /* cameraTestTests */ = {
@@ -460,7 +460,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = productPiya.cameraTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HandFireWork;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -489,7 +489,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = productPiya.cameraTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HandFireWork;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

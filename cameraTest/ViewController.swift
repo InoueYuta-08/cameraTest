@@ -9,7 +9,6 @@ import UIKit
 import ARKit
 //音再生
 import AVFoundation
-import SpriteKit
 
 class ViewController: UIViewController, ARSessionDelegate {
     
